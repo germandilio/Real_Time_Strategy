@@ -2,7 +2,7 @@ using Mirror;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Networking
+namespace Gameplay.Units
 {
     public class UnitSpawner : NetworkBehaviour, IPointerClickHandler
     {
@@ -13,7 +13,7 @@ namespace Networking
         private Transform spawnPoint;
         
         #region Client
-        
+
         [ClientCallback]
         public void OnPointerClick(PointerEventData eventData)
         {

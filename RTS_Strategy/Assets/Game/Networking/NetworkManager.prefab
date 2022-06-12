@@ -49,8 +49,8 @@ MonoBehaviour:
   runInBackground: 1
   autoStartServerBuild: 1
   serverTickRate: 30
-  offlineScene: 
-  onlineScene: 
+  offlineScene: Assets/Scenes/MainScene.unity
+  onlineScene: Assets/Scenes/SampleScene.unity
   transport: {fileID: 2279562024450149611}
   networkAddress: localhost
   maxConnections: 100
@@ -88,8 +88,8 @@ MonoBehaviour:
   MaximizeSendReceiveBuffersToOSLimit: 1
   ReliableMaxMessageSize: 298449
   UnreliableMaxMessageSize: 1199
-  debugLog: 0
-  statisticsGUI: 0
+  debugLog: 1
+  statisticsGUI: 1
   statisticsLog: 0
 --- !u!114 &3136171535024148883
 MonoBehaviour:
